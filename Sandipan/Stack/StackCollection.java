@@ -15,3 +15,18 @@ public class StackCollection {
         }
     }
 }
+
+//if character then
+class StackCharCollection {
+    public static void main(String[] args) {
+        Stack<Character> s = new Stack<>();
+        s.push('a');
+        s.push('b');
+        s.push('c');
+        while (!s.isEmpty()) {
+            System.out.print(s.peek());
+            s.pop();
+            
+        }
+    }
+}
