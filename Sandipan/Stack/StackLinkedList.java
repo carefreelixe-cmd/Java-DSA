@@ -1,9 +1,12 @@
 package Sandipan.Stack;
 import java.util.*;
 public class StackLinkedList {
+    //created the node class
     static class Node{
         int data;
         Node next;
+
+        //node constructor
         Node(int data)
         {
             this.data = data;
@@ -14,8 +17,9 @@ public class StackLinkedList {
 
     }
 
-
+//created the stack class
     static class Stack{
+         //head of the linked list
         static Node head=null;
         
         public static boolean isEmpty(){
