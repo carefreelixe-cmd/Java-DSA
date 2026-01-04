@@ -75,3 +75,59 @@ class Solution {
         return false;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ok but cant do duplicate case 
+/*import java.util.*;
+
+class Solution {
+    public boolean check(int[] nums) {
+        int[] arr=new int [nums.length];
+        int pos=0,k=0;
+        int c=0;
+        int min=Integer.MAX_VALUE;
+        for (int i=0;i<nums.length;i++){
+            if(nums[i]<min)
+            {
+                min=nums[i];
+                pos=i;
+                
+            }
+        }
+        int start = pos;
+        while(pos<nums.length){
+            arr[k]=nums[pos];
+            pos++;
+            k++;
+        }
+        for(int i=0;i<start;i++){
+            arr[k]=nums[i];
+            k++;
+        }
+        Arrays.sort(nums);
+        if(Arrays.equals(nums, arr))
+        {
+            return true;
+        }
+        
+        return false;
+    }
+} */
