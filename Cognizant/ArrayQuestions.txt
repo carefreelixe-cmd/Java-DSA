@@ -1,0 +1,74 @@
+You are given an array of N strings. Write a program to interchange the first and last elements of the array without using an extra array
+
+Given a string consisting of lowercase English alphabets only, find the sum of the positions of its characters and print the sum
+Write an SQL query to print the last name from the full name column in the employees table
+
+Swap first and last string of an array
+
+
+Find the length of each string in an array
+Example: ["cat", "elephant"] → 3 8
+
+Print the longest string in an array
+
+Print the shortest string in an array
+
+Count total number of strings in an array
+
+🔹 STRING + ARRAY LOGIC QUESTIONS
+
+Count vowels in each string of an array
+
+Count total characters in the array (excluding spaces)
+
+Find how many strings start with a vowel
+
+Convert all strings to uppercase
+
+Reverse each string in the array
+
+🔹 SEARCH / CONDITION BASED
+
+Check if a given string exists in the array
+
+Count how many strings contain a given character
+
+Find strings with length greater than K
+
+Find strings that are palindromes
+
+🔹 SORTING / ORDER QUESTIONS
+
+Sort an array of strings alphabetically
+
+Sort strings by length
+
+Find second longest string
+
+🔹 ADVANCED (INTERVIEW LIKES THESE)
+
+Remove duplicate strings from array
+
+Find common strings between two arrays
+
+Group strings by their length
+
+Count frequency of each string
+
+Find first non-repeating string
+
+🔹 VERY POPULAR INTERVIEW WORDINGS
+
+🔸 “Given an array of strings, write a program to…”
+
+interchange first & last
+
+find longest / shortest
+
+reverse each element
+
+remove duplicates
+
+count vowels / consonants
+
+sort lexicographically
