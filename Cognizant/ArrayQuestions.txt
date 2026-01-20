@@ -27,6 +27,10 @@ done
 Convert all strings to uppercase
 done
 Reverse each string in the array
+done
+
+
+
 
 🔹 SEARCH / CONDITION BASED
 
