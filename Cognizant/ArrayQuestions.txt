@@ -25,7 +25,7 @@ done
 Find how many strings start with a vowel
 done
 Convert all strings to uppercase
-
+done
 Reverse each string in the array
 
 🔹 SEARCH / CONDITION BASED
