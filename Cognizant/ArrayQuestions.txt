@@ -21,7 +21,7 @@ done
 Count vowels in each string of an array
 done
 Count total characters in the array (excluding spaces)
-
+done
 Find how many strings start with a vowel
 
 Convert all strings to uppercase
