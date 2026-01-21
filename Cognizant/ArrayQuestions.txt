@@ -35,13 +35,13 @@ done
 🔹 SEARCH / CONDITION BASED
 
 Check if a given string exists in the array
-
+done
 Count how many strings contain a given character
-
+done 
 Find strings with length greater than K
-
+done
 Find strings that are palindromes
-
+done
 🔹 SORTING / ORDER QUESTIONS
 
 Sort an array of strings alphabetically

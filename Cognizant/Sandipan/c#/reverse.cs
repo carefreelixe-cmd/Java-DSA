@@ -47,6 +47,29 @@ namespace Cognizant.Sandipan.c_sharp
             Console.WriteLine("Not Found");
             
         }
+
+        static void countCharacter(String str)
+        {
+            int count=0;
+            for(int i=0;i<str.Length;i++)
+            {
+                count++;
+            }
+            Console.WriteLine("Number of characters in the string is: "+count);
+        }
+
+        static void palindrone(String str)
+        {
+            for(int i=0;i<str.Length/2;i++)
+            {
+                if(str[i]!=str[str.Length-i-1])
+                {
+                    Console.WriteLine("Not a palindrone");
+                    return;
+                }
+            }
+            Console.WriteLine("Is a palindrone");
+        }
         static void Main(string[] args)
         {
             int[] arr = [1, 2, 3, 4, 5];
@@ -66,6 +89,8 @@ namespace Cognizant.Sandipan.c_sharp
             }
 
             FoundOrNot(str,"Sandipan");
+            countCharacter("Hello");
+            palindrone("madam");
         }
     }
 }
