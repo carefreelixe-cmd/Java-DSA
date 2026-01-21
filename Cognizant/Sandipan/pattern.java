@@ -1,0 +1,10 @@
+package Cognizant.Sandipan;
+// 1
+// 2 1 2
+// 3 2 3 2
+// 4 3 4 3 4
+
+// an then sum
+public class pattern {
+    
+}
