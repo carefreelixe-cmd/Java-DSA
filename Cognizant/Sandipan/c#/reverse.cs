@@ -34,9 +34,22 @@ namespace Cognizant.Sandipan.c_sharp
             }
         }
 
+        static void FoundOrNot(String[]arr, String key)
+        {
+            for(int i=0;i<arr.Length;i++)
+            {
+                if(arr[i]==key)
+                {
+                    Console.WriteLine("Found");
+                    return;
+                }
+            }
+            Console.WriteLine("Not Found");
+            
+        }
         static void Main(string[] args)
         {
-            int[] arr = { 1, 2, 3, 4, 5 };
+            int[] arr = [1, 2, 3, 4, 5];
             String[] str={"Cognizant","Sandipan","Hello"};
             ReverseString(str);
             Console.WriteLine("Reversed string array is:");
@@ -51,6 +64,8 @@ namespace Cognizant.Sandipan.c_sharp
             {
                 Console.Write(num + " ");
             }
+
+            FoundOrNot(str,"Sandipan");
         }
     }
 }
