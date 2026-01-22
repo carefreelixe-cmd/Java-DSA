@@ -5,30 +5,24 @@ namespace Cognizant.Sandipan.c_sharp
     {
         static void mergeArray(int[] arr1, int[] arr2)
         {
-            int k = 0;
-            int[] merge = new int[arr1.Length + arr2.Length];
-            
-            // Copy elements from arr1
-            for(int i = 0; i < arr1.Length; i++)
-            {
-                merge[k] = arr1[i];
-                k++;
-            }
-            
-            // Copy elements from arr2
-            for(int j = 0; j < arr2.Length; j++)
-            {
-                merge[k] = arr2[j];
-                k++;
-            }
-            
-            // Display the merged array
-            Console.WriteLine("Merged Array:");
-            foreach(int num in merge)
-            {
-                Console.Write(num + " ");
-            }
-            Console.WriteLine();
+          int k=0;
+          int [] mergeArray= new int [arr1.Length + arr2.Length];
+          for(int i=0;i<arr1.Length;i++)
+          {
+              mergeArray[k]=arr1[i];
+              k++;
+          }
+          for(int j=0;j<arr2.Length;j++)
+          {
+              mergeArray[k]=arr2[j];
+              k++;
+          }
+          Console.WriteLine("Merged Array:");
+          foreach(int num in mergeArray)
+          {
+              Console.Write(num + " ");
+          }
+          Console.WriteLine();
         }
         
         static void Main(string[] args)
