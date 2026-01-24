@@ -15,6 +15,7 @@
 
     <p id="hide">Hide me!</p>
     <p id="dateDisplay"></p>
+    <div class="box">This is box</div>
     <script>
         const handleDateTime=()=>{
             const dateTime=Date();
@@ -25,6 +26,12 @@
         const handleHide=()=>{
             document.getElementById("hide").style.display="none";
         }
+
+        const box=document.getElementsByClassName("box")[0];
+        console.log(box);
+        box.addEventListener("click",()=>{
+            alert("Box clicked");
+        })
     </script>
 </body>
 </html>
