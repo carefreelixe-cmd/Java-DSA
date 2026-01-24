@@ -1,0 +1,91 @@
+1. fibonachhi
+2. concat , substring
+what is thread
+reverese a string
+array all ---> check notes
+string all --> check n otes
+recursion soem
+
+"The changes"
+a. using System
+b. Console.WriteLine()
+c. namespace c
+d. static void Main(String args[])
+e. any classname name Capital.
+f. using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter name: ");
+        string name = Console.ReadLine();
+
+        Console.Write("Enter age: ");
+        int age = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Name: " + name);
+        Console.WriteLine("Age: " + age);
+    }
+}
+g. at the time using any build in func. use caps . for example 
+---- Array.Sort()
+h. here we dont need to give a empty bracket. like "()" example str.length,Array.Clone
+      I. here casting required -- when clone or all the specific case
+      1. When Casting is REQUIRED
+      Case 1: Method returns object
+
+      C#’s base type is object.
+
+      object x = "Hello";
+      string s = (string)x;   // casting REQUIRED
+
+
+      Why?
+      Because object can hold anything.
+
+      Case 2: Array.Clone()
+      int[] arr = {1,2,3};
+      int[] copy = (int[])arr.Clone();   // REQUIRED
+
+
+      Why?
+      Clone() returns object, not int[].
+
+      Case 3: Downcasting (Parent → Child)
+      Animal a = new Dog();
+      Dog d = (Dog)a;   // REQUIRED
+
+
+      Because compiler only sees Animal.
+
+      Case 4: Numeric Narrowing
+      double d = 10.5;
+      int x = (int)d;   // REQUIRED
+
+
+      Data loss possible → compiler forces cast.
+j. Parse case----
+      1. Most Common Case: Console Input
+      int x = int.Parse(Console.ReadLine());
+
+
+      Why?
+
+      Console.ReadLine() → returns string
+
+      You need int → Parse required
+
+      2. Converting String Literals
+      string s = "100";
+      int n = int.Parse(s);
+
+
+      Without Parse ❌
+      
+k. For 2d array --
+      int[,] a = new int[3,4];     // true 2D array
+      int[][] b = new int[3][];   // jagged array (like Java)
+
+L. here u never use "Public"
+M. Array to string conversion --- a.ToString();
