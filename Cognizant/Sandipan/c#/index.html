@@ -4,12 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width='device-width', initial-scale=1.0">
     <title>Document</title>
+  
 </head>
 <body>
 
     <h1>Remove Duplicates in C#</h1>
+    <button onclick="handleDateTime()">Click here to show date and time</button>
+
+    <button onclick="handleHide()">Click Me</button>
+
+    <p id="hide">Hide me!</p>
+    <p id="dateDisplay"></p>
     <script>
-        
+        const handleDateTime=()=>{
+            const dateTime=Date();
+            document.getElementById("dateDisplay").innerHTML=dateTime;
+            console.log(dateTime);
+        }
+
+        const handleHide=()=>{
+            document.getElementById("hide").style.display="none";
+        }
     </script>
 </body>
 </html>
