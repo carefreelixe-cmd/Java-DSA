@@ -16,6 +16,8 @@
     <p id="hide">Hide me!</p>
     <p id="dateDisplay"></p>
     <div class="box">This is box</div>
+
+    <p class="clock">This is  a clock </p>
     <script>
         const handleDateTime=()=>{
             const dateTime=Date();
@@ -31,6 +33,18 @@
         console.log(box);
         box.addEventListener("click",()=>{
             alert("Box clicked");
+        })
+
+
+        const clock=document.getElementsByClassName("clock")[0];
+      
+        clock.addEventListener("click",()=>{
+            alert("Clock clicked");
+              setInterval(()=>{
+            const time=new Date().toLocaleTimeString();
+            clock.innerHTML=time;
+
+        }),1000;
         })
     </script>
 </body>
