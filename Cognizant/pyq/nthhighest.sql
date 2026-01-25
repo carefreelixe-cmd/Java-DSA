@@ -10,3 +10,8 @@ select
 
     if n=3
     then offset 2
+
+
+    //chnge size of a name colum from varchar 50 to 100
+    alter table employee
+    modify name varchar(100);
