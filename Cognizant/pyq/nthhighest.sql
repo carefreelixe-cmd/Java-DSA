@@ -43,3 +43,6 @@ FROM Customers;
 select name,coalesce(salary,0)as salary;
 SELECT SUBSTRING_INDEX(full_name, ' ', -1) AS last_name
 FROM employees;
+
+
+select substring_index('first_name','',-1)

@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.Design;
 class postiotn
 {
     static int CharacterSum(string str)
@@ -41,3 +42,4 @@ class postiotn
         Console.WriteLine("Hello: " + CharacterSum(test4)); // 8+5+12+12+15 = 52
     }
 }
+
