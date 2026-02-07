@@ -1,0 +1,35 @@
+{
+    // Disable GitHub Copilot
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "java": false
+    },
+    
+    // Disable inline suggestions from all sources
+    "editor.inlineSuggest.enabled": false,
+    
+    // Disable quick suggestions
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    
+    // Disable suggestion on trigger characters
+    "editor.suggestOnTriggerCharacters": false,
+    
+    // Disable parameter hints
+    "editor.parameterHints.enabled": false,
+    
+    // Optionally: Only accept suggestions explicitly with Ctrl+Space (not on Enter/Tab)
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    
+    // Disable word based suggestions
+    "editor.wordBasedSuggestions": "off",
+    
+    // Disable snippet suggestions
+    "editor.snippetSuggestions": "none"
+}
