@@ -7,7 +7,7 @@ public class binary {
         String binaryString = Integer.toBinaryString(n);
         StringBuilder binaryConvert = new StringBuilder(binaryString);
         
-        // 
+       
         
         for(int i=0; i<binaryConvert.length(); i++)
         {
