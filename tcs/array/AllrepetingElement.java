@@ -12,6 +12,8 @@ public class AllrepetingElement {
                 dublicate.add(num);
             }
         }
+
+        // sam e for dublicate
     }
 
     public static void RemoveDublicate(int []arr)
@@ -21,5 +23,14 @@ public class AllrepetingElement {
         {
             set.add(num);
         }
+
+        int [] result= new int [set.size()];
+        int index=0;
+        for(int num:set)
+        {result[index++]=num;
+
+        }
+
+        // return result
     }
 }
