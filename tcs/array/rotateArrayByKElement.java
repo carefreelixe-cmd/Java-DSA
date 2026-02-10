@@ -6,7 +6,7 @@ public class rotateArrayByKElement {
         //store the last elemnt in the temp varibale
         int temp=arr[arr.length-1];
 
-            // run the loop
+            //run the loop
 
         for(int i=arr.length-1;i>0;i--)
         {
