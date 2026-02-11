@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Nonreperting",
+            "request": "launch",
+            "mainClass": "tcs.array.Nonreperting",
+            "projectName": "Java-DSA_93f3dbc1"
+        },
+        {
+            "type": "java",
             "name": "pushArray",
             "request": "launch",
             "mainClass": "Sandipan.Array.pushArray",
