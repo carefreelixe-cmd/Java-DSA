@@ -23,3 +23,27 @@ public class reverseString {
  
     }
 }
+
+
+
+//uisng string builder
+
+
+
+// package tcs.string;
+
+// public class reverseString {
+
+//     public static String reverseString(String s) {
+
+//         StringBuilder sb = new StringBuilder(s);
+//         sb.reverse();          // built-in reverse
+
+//         return sb.toString();
+//     }
+
+//     public static void main(String[] args) {
+//         System.out.println(reverseString("Sandipan"));
+//     }
+// }
+
