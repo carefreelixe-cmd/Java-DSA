@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NonRepeatingCharacter",
+            "request": "launch",
+            "mainClass": "tcs.string.NonRepeatingCharacter",
+            "projectName": "Java-DSA_93f3dbc1"
+        },
+        {
+            "type": "java",
             "name": "replaceEachElemtnByrank",
             "request": "launch",
             "mainClass": "tcs.array.replaceEachElemtnByrank",
