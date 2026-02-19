@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reverssWord",
+            "request": "launch",
+            "mainClass": "tcs.string.reverssWord",
+            "projectName": "Java-DSA_93f3dbc1"
+        },
+        {
+            "type": "java",
             "name": "NonRepeatingCharacter",
             "request": "launch",
             "mainClass": "tcs.string.NonRepeatingCharacter",
