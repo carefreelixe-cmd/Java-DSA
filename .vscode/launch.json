@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reverseString",
+            "request": "launch",
+            "mainClass": "tcs.stack.reverseString",
+            "projectName": "Java-DSA_93f3dbc1"
+        },
+        {
+            "type": "java",
+            "name": "reverseUisngStack",
+            "request": "launch",
+            "mainClass": "tcs.stack.reverseUisngStack",
+            "projectName": "Java-DSA_93f3dbc1"
+        },
+        {
+            "type": "java",
+            "name": "basic",
+            "request": "launch",
+            "mainClass": "tcs.stack.basic",
+            "projectName": "Java-DSA_93f3dbc1"
+        },
+        {
+            "type": "java",
             "name": "reverssWord",
             "request": "launch",
             "mainClass": "tcs.string.reverssWord",
