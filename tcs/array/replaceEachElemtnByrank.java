@@ -25,6 +25,43 @@ public class replaceEachElemtnByrank {
         return temp;
     }
 
+
+public static int[] replaceeachElemntByrank(int[] arr) {
+
+        
+        int[] sortArray = arr.clone();
+        Arrays.sort(sortArray);
+
+        int[] tempRank = new int[arr.length];
+
+       
+        for (int i = 0; i < sortArray.length; i++) {
+            int count = 1;  
+
+            for (int j = 0; j < sortArray.length; j++) {
+                if (sortArray[j] < sortArray[i]) {
+                    count++;
+                }
+            }
+            tempRank[i] = count;
+        }
+
+      
+        int[] rank = new int[arr.length];
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int k = 0; k < sortArray.length; k++) {
+                if (arr[i] == sortArray[k]) {
+                    rank[i] = tempRank[k];
+                    break;
+                }
+            }
+        }
+
+        return rank;
+    }
+
+
     public static void main(String[] args)
     {
         int[] arr = {40, 10, 20, 30};
