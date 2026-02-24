@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reverseString",
+            "request": "launch",
+            "mainClass": "tcs.stack.reverseString",
+            "projectName": "Java-DSA_93f3dbc1"
+        },
+        {
+            "type": "java",
+            "name": "reverseUisngStack",
+            "request": "launch",
+            "mainClass": "tcs.stack.reverseUisngStack",
+            "projectName": "Java-DSA_93f3dbc1"
+        },
+        {
+            "type": "java",
+            "name": "basic",
+            "request": "launch",
+            "mainClass": "tcs.stack.basic",
+            "projectName": "Java-DSA_93f3dbc1"
+        },
+        {
+            "type": "java",
+            "name": "reverssWord",
+            "request": "launch",
+            "mainClass": "tcs.string.reverssWord",
+            "projectName": "Java-DSA_93f3dbc1"
+        },
+        {
+            "type": "java",
+            "name": "NonRepeatingCharacter",
+            "request": "launch",
+            "mainClass": "tcs.string.NonRepeatingCharacter",
+            "projectName": "Java-DSA_93f3dbc1"
+        },
+        {
+            "type": "java",
+            "name": "replaceEachElemtnByrank",
+            "request": "launch",
+            "mainClass": "tcs.array.replaceEachElemtnByrank",
+            "projectName": "Java-DSA_93f3dbc1"
+        },
+        {
+            "type": "java",
+            "name": "Nonreperting",
+            "request": "launch",
+            "mainClass": "tcs.array.Nonreperting",
+            "projectName": "Java-DSA_93f3dbc1"
+        },
+        {
+            "type": "java",
             "name": "pushArray",
             "request": "launch",
             "mainClass": "Sandipan.Array.pushArray",
