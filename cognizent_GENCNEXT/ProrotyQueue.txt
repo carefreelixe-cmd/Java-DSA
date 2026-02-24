@@ -1,0 +1,92 @@
+A Priority Queue is a data structure where elements are removed based on priority, not insertion order.
+
+👉 Highest priority element comes out first (or lowest, depending on type).
+
+✅ Real Life Example
+Hospital emergency room:
+
+Plain text
+
+Critical patient → treated first
+Normal patient → later
+Order depends on priority, not arrival time.
+
+✅ Types
+Type	Removal Order
+Min Priority Queue	Smallest element first
+Max Priority Queue	Largest element first
+
+✅ Example
+Insert:
+
+Plain text
+
+10, 5, 20, 1
+Min Priority Queue removal:
+
+Plain text
+
+1 → 5 → 10 → 20
+Max Priority Queue removal:
+
+Plain text
+
+20 → 10 → 5 → 1
+✅ Implementation Concept
+Most priority queues use Heap internally.
+
+Plain text
+
+Binary Heap → O(log n) insertion & removal
+✅ Priority Queue in C#
+C# has built-in class:
+
+C#
+
+PriorityQueue<TElement, TPriority>
+✅ Example Code (Min Priority Queue)
+C#
+
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        PriorityQueue<string, int> pq = new PriorityQueue<string, int>();
+
+        pq.Enqueue("A", 3);
+        pq.Enqueue("B", 1);
+        pq.Enqueue("C", 2);
+
+        Console.WriteLine(pq.Dequeue());
+        Console.WriteLine(pq.Dequeue());
+        Console.WriteLine(pq.Dequeue());
+    }
+}
+✅ Output
+Plain text
+
+B
+C
+A
+Because priorities:
+
+Plain text
+
+B → 1 (highest priority because smallest)
+C → 2
+A → 3
+🔥 Important Operations
+Method	Meaning
+Enqueue(element, priority)	Insert
+Dequeue()	Remove highest priority
+Peek()	View without removing
+Count	Number of elements
+
+✅ Time Complexity
+Operation	Complexity
+Insert	O(log n)
+Remove	O(log n)
+Peek	O(1)
