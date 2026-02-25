@@ -1,0 +1,15 @@
+D:\Coding-Programming\website-myself\Java-DSA\cognizent_GENCNEXT\Practice\MyStack\bin\Debug\net10.0\MyStack.exe
+D:\Coding-Programming\website-myself\Java-DSA\cognizent_GENCNEXT\Practice\MyStack\bin\Debug\net10.0\MyStack.deps.json
+D:\Coding-Programming\website-myself\Java-DSA\cognizent_GENCNEXT\Practice\MyStack\bin\Debug\net10.0\MyStack.runtimeconfig.json
+D:\Coding-Programming\website-myself\Java-DSA\cognizent_GENCNEXT\Practice\MyStack\bin\Debug\net10.0\MyStack.dll
+D:\Coding-Programming\website-myself\Java-DSA\cognizent_GENCNEXT\Practice\MyStack\bin\Debug\net10.0\MyStack.pdb
+D:\Coding-Programming\website-myself\Java-DSA\cognizent_GENCNEXT\Practice\MyStack\obj\Debug\net10.0\MyStack.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding-Programming\website-myself\Java-DSA\cognizent_GENCNEXT\Practice\MyStack\obj\Debug\net10.0\MyStack.AssemblyInfoInputs.cache
+D:\Coding-Programming\website-myself\Java-DSA\cognizent_GENCNEXT\Practice\MyStack\obj\Debug\net10.0\MyStack.AssemblyInfo.cs
+D:\Coding-Programming\website-myself\Java-DSA\cognizent_GENCNEXT\Practice\MyStack\obj\Debug\net10.0\MyStack.csproj.CoreCompileInputs.cache
+D:\Coding-Programming\website-myself\Java-DSA\cognizent_GENCNEXT\Practice\MyStack\obj\Debug\net10.0\MyStack.sourcelink.json
+D:\Coding-Programming\website-myself\Java-DSA\cognizent_GENCNEXT\Practice\MyStack\obj\Debug\net10.0\MyStack.dll
+D:\Coding-Programming\website-myself\Java-DSA\cognizent_GENCNEXT\Practice\MyStack\obj\Debug\net10.0\refint\MyStack.dll
+D:\Coding-Programming\website-myself\Java-DSA\cognizent_GENCNEXT\Practice\MyStack\obj\Debug\net10.0\MyStack.pdb
+D:\Coding-Programming\website-myself\Java-DSA\cognizent_GENCNEXT\Practice\MyStack\obj\Debug\net10.0\MyStack.genruntimeconfig.cache
+D:\Coding-Programming\website-myself\Java-DSA\cognizent_GENCNEXT\Practice\MyStack\obj\Debug\net10.0\ref\MyStack.dll
