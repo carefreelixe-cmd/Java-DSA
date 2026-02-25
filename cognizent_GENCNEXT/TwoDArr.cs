@@ -13,7 +13,7 @@ namespace cognizent_GENCNEXT
             {
                 for (int j = 0; j < n; j++)
                 {
-                    arr[i, j] = Convert.ToInt32(Console.ReadLine());
+                    arr[i, j] = int.Parse(Console.ReadLine());
                 }
             }
         }

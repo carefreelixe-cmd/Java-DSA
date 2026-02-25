@@ -10,7 +10,8 @@ namespace cognizent_GENCNEXT
             for (int i = 0; i < k.Length; i++)
             {
                 Console.Write("Enter number[" + i + "] : ");
-                k[i] = Convert.ToInt32(Console.ReadLine());
+            //     k[i] = Convert.ToInt32(Console.ReadLine());
+                k[i] = int.Parse(Console.ReadLine());
             }
         }
 
@@ -63,7 +64,7 @@ namespace cognizent_GENCNEXT
             int size;
 
             Console.WriteLine("Enter Element Size");
-            size = Convert.ToInt32(Console.ReadLine());
+            size = int.Parse(Console.ReadLine());
 
             int[] num = new int[size];
             CreateArray(num);
@@ -75,7 +76,7 @@ namespace cognizent_GENCNEXT
 
             do
             {
-                choice = Convert.ToInt32(Console.ReadLine());
+                choice = int.Parse(Console.ReadLine());
 
                 if (choice != 1)
                 {

@@ -47,7 +47,7 @@ namespace cognizent_GENCNEXT
         public static void Main(string[] args)
         {
             int[] nums = { 10, 20, 30, 40, 50 };
-            subarr(nums);
+            pairarr(nums);
             display(nums);
         }
     }
