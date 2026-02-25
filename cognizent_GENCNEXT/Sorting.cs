@@ -87,6 +87,64 @@ namespace cognizent_GENCNEXT
             return i + 1;
         }
 
+        // Merge Sort
+        public static void mergeSort(int[] nums, int left, int right)
+        {
+            if (left < right)
+            {
+                int mid = left + (right - left) / 2;
+                mergeSort(nums, left, mid);
+                mergeSort(nums, mid + 1, right);
+                merge(nums, left, mid, right);
+            }
+        }
+
+        public static void merge(int[] nums, int left, int mid, int right)
+        {
+            int n1 = mid - left + 1;
+            int n2 = right - mid;
+
+            int[] leftArray = new int[n1];
+            int[] rightArray = new int[n2];
+
+            for (int x = 0; x < n1; x++)
+                leftArray[x] = nums[left + x];
+            for (int x = 0; x < n2; x++)
+                rightArray[x] = nums[mid + 1 + x];
+
+            int i = 0, j = 0;
+            int k = left;
+
+            while (i < n1 && j < n2)
+            {
+                if (leftArray[i] <= rightArray[j])
+                {
+                    nums[k] = leftArray[i];
+                    i++;
+                }
+                else
+                {
+                    nums[k] = rightArray[j];
+                    j++;
+                }
+                k++;
+            }
+
+            while (i < n1)
+            {
+                nums[k] = leftArray[i];
+                i++;
+                k++;
+            }
+
+            while (j < n2)
+            {
+                nums[k] = rightArray[j];
+                j++;
+                k++;
+            }
+        }
+
         public static void display(int[] arr)
         {
             Console.WriteLine("\t\t---- The Array ----> \n");
@@ -116,7 +174,8 @@ namespace cognizent_GENCNEXT
             Console.WriteLine("2. Selection Sort");
             Console.WriteLine("3. Insertion Sort");
             Console.WriteLine("4. Quick Sort");
-            Console.Write("Enter your choice (1-4): ");
+            Console.WriteLine("5. Merge Sort");
+            Console.Write("Enter your choice (1-5): ");
             int choice = Convert.ToInt32(Console.ReadLine());
 
             switch (choice)
@@ -136,6 +195,10 @@ namespace cognizent_GENCNEXT
                 case 4:
                     quickSort(arr, 0, arr.Length - 1);
                     Console.WriteLine("Sorted using Quick Sort");
+                    break;
+                case 5:
+                    mergeSort(arr, 0, arr.Length - 1);
+                    Console.WriteLine("Sorted using Merge Sort");
                     break;
                 default:
                     Console.WriteLine("Invalid choice! Using Bubble Sort by default.");
