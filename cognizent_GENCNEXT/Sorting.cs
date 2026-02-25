@@ -210,3 +210,132 @@ namespace cognizent_GENCNEXT
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*I'll explain all the sorting algorithms in detail to help you prepare for your interview!
+
+1. Bubble Sort (Lines 8-22)
+Theory: Repeatedly compares adjacent elements and swaps them if they're in wrong order. Largest element "bubbles up" to the end in each pass.
+
+How it works:
+
+Outer loop (i): Controls number of passes (n-1 passes)
+Inner loop (j): Compares adjacent elements
+if (nums[j] > nums[j + 1]): If left element is greater, swap them
+After each pass, the largest unsorted element reaches its correct position
+nums.Length - i - 1: Reduces comparisons as last i elements are already sorted
+Time Complexity: O(n²) - worst/average, O(n) - best (already sorted)
+Space Complexity: O(1) - sorts in-place
+Stable: Yes (maintains order of equal elements)
+
+2. Selection Sort (Lines 25-40)
+Theory: Divides array into sorted and unsorted parts. Repeatedly finds minimum element from unsorted part and places it at the beginning.
+
+How it works:
+
+Outer loop (i): Marks boundary between sorted and unsorted
+int minIndex = i: Assume current position has minimum
+Inner loop (j = i + 1): Find actual minimum in remaining unsorted part
+After inner loop, swap minimum element with element at position i
+Builds sorted array from left to right
+Time Complexity: O(n²) - all cases
+Space Complexity: O(1)
+Stable: No (can change order of equal elements)
+
+3. Insertion Sort (Lines 43-57)
+Theory: Like sorting playing cards. Pick element one by one and insert it into correct position in already sorted part.
+
+How it works:
+
+int key = nums[i]: Current element to be inserted
+int j = i - 1: Start from previous element
+While loop: Shift all elements greater than key one position right
+nums[j + 1] = key: Insert key at correct position
+Left part of array is always sorted
+Time Complexity: O(n²) - worst/average, O(n) - best
+Space Complexity: O(1)
+Stable: Yes
+Best for: Nearly sorted arrays or small datasets
+
+4. Quick Sort (Lines 60-88)
+Theory: Divide and Conquer algorithm. Pick a pivot, partition array so elements smaller than pivot are left, larger are right. Recursively sort both parts.
+
+How it works:
+
+quickSort method:
+
+int pi = partition(...): Get pivot's final position
+Recursively sort left side: quickSort(nums, low, pi - 1)
+Recursively sort right side: quickSort(nums, pi + 1, high)
+partition method:
+
+int pivot = nums[high]: Choose last element as pivot
+int i = (low - 1): Tracks position for smaller elements
+Loop through array, if nums[j] < pivot, increment i and swap
+Finally, place pivot in correct position (i + 1)
+Return pivot's final position
+Time Complexity: O(n log n) - average, O(n²) - worst
+Space Complexity: O(log n) - recursion stack
+Stable: No
+Best for: Large datasets, average case performance
+
+5. Merge Sort (Lines 91-147)
+Theory: Divide and Conquer. Recursively divide array into halves until single elements, then merge them back in sorted order.
+
+How it works:
+
+mergeSort method:
+
+int mid = left + (right - left) / 2: Find middle point (avoids overflow)
+Recursively divide: mergeSort(nums, left, mid) and mergeSort(nums, mid + 1, right)
+Merge sorted halves: merge(nums, left, mid, right)
+merge method:
+
+Calculate sizes: n1 = mid - left + 1, n2 = right - mid
+Create temporary arrays: leftArray and rightArray
+Copy data to temp arrays
+Main merging: Compare elements from both arrays, put smaller one in original array
+Copy remaining elements from either array (if any)
+Time Complexity: O(n log n) - all cases (guaranteed)
+Space Complexity: O(n) - needs extra space for temp arrays
+Stable: Yes
+Best for: Large datasets, when stability matters, linked lists
+
+Interview Tips:
+Common Questions:
+
+"Which is fastest?" → Quick Sort (average), Merge Sort (guaranteed)
+"Which uses least memory?" → Bubble, Selection, Insertion (O(1))
+"Which is stable?" → Bubble, Insertion, Merge
+"Best for small data?" → Insertion Sort
+"Best for nearly sorted?" → Insertion Sort (O(n))
+Time Complexity Summary:
+
+O(n²): Bubble, Selection, Insertion
+O(n log n): Quick (average), Merge (always)
+Key Differences:
+
+In-place: Bubble, Selection, Insertion, Quick
+External memory: Merge (needs extra space)
+Divide & Conquer: Quick, Merge
+Comparison-based: All of these
+Good luck with your interview! 🎯
+
+Claude Sonnet 4.5 • 1x
+*/
