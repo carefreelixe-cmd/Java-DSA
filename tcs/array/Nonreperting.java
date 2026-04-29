@@ -5,26 +5,18 @@ public class Nonreperting {
 
    public static int[] NonRepetaing(int[] arr) 
    {
+    int index=0;
        HashSet<Integer> set = new HashSet<>();
-       HashSet<Integer> nonEle = new HashSet<>();
-
-       for (int num : arr)
+       for(int i=0;i<arr.length;i++)
        {
-           if (set.add(num))
-           {
-               nonEle.add(num);
-           }
+        set.add(arr[i]);
        }
-
-       int[] resullt = new int[nonEle.size()];
-       int index = 0;
-
-       for (int num : nonEle)
+       int []temp=new int[set.size()];
+       for(int num:set)
        {
-           resullt[index++] = num;
+       temp[index++]=num;
        }
-
-       return resullt;
+       return temp;
    }
 
    public static void main(String[] args)
