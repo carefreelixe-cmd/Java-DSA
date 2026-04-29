@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cognizent_GENCNEXT", "cognizent_GENCNEXT", "{311CEE46-2507-8092-7917-4A434CC855E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Practice", "Practice", "{9B0245C7-CCBD-7B44-A167-5F942252F7CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStack", "cognizent_GENCNEXT\Practice\MyStack\MyStack.csproj", "{4FF45884-5497-57DC-B5A1-868ED3DA9035}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FF45884-5497-57DC-B5A1-868ED3DA9035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF45884-5497-57DC-B5A1-868ED3DA9035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF45884-5497-57DC-B5A1-868ED3DA9035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF45884-5497-57DC-B5A1-868ED3DA9035}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B0245C7-CCBD-7B44-A167-5F942252F7CD} = {311CEE46-2507-8092-7917-4A434CC855E7}
+		{4FF45884-5497-57DC-B5A1-868ED3DA9035} = {9B0245C7-CCBD-7B44-A167-5F942252F7CD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CFBC68B-0E94-4011-8B3C-FED9144AFF02}
+	EndGlobalSection
+EndGlobal
