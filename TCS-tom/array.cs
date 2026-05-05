@@ -54,7 +54,7 @@ class array
                   }
                   else
                   {
-                                                end=mid-1;
+                        end=mid-1;
                   }
 
             }
@@ -121,7 +121,8 @@ class array
             }
             Console.WriteLine();
       }
-      // max subarray sum
+      // max 
+      //  sum
       static void MaxSubarr(int[] arr)
       {
             int cs=0;
